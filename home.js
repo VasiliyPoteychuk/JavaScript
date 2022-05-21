@@ -88,16 +88,16 @@
 // console.log(Math.min(a, b, c, d, e, f, g), Math.max(a, b, c, d, e, f, g));
 // задача 4
 
-let r = 6;
-let c = 11;
-for ( let a = 1; a <=r; a++){
-    let s = "";
-    for ( let b = 1; b <= c; b++){
-        if( b <= r - a  || b-a>r-1){
-            s = s + "-";
-        }else{
-            s = s + "+";
-        }
-    }
-    console.log(s);
-}
+// let r = 6;
+// let c = 11;
+// for ( let a = 1; a <=r; a++){
+//     let s = "";
+//     for ( let b = 1; b <= c; b++){
+//         if( b <= r - a  || b-a>r-1){
+//             s = s + "-";
+//         }else{
+//             s = s + "+";
+//         }
+//     }
+//     console.log(s);
+// }//задача 5
