@@ -39,3 +39,51 @@
 //     b = b + a;
 //     console.log(b);
 // }//5 задача
+
+// let n = +prompt (' Введите колличество строк ');
+// let m = +prompt (' Введите колличество столбцов');
+// for ( let a = 1 ; a <= n ; a++){
+//     let s = "";
+//     for (let b = 1 ; b <= m ; b++){
+//         if ( a%2==0 && b%2!=0 || a%2!=0 && b%2==0){
+//             s = s + 'BBB';    
+//         }else{
+//             s = s + 'AAA';
+//         }
+//     }
+//     console.log(s);
+// }// задача 1
+
+// let n = +prompt ('Введите колличество строк');
+// let m = n*2;
+//     for ( let a =1; a <= n; a++){
+//         let s = "";
+//         for ( let b = 1; b <=m; b++){
+//             if(a == 1 || a == n || b == 1 || b == m){
+//                 s = s + "A"; 
+//             }else{
+//                 s = s + "B"
+//             }
+//         }
+//         console.log(s);
+//     }//задача 2
+
+// let a = Math.random() * (100024 - 578) + 578;
+//  a = Math.round(a);
+//  let b = Math.random() * (100024 - 578) + 578;
+//  b = Math.round(b);
+//  let c = Math.random() * (100024 - 578) + 578;
+//  c = Math.round(c);
+//  if(a != b && a != c && b != c){
+//     console.log(a,b,c);
+//  }//задача 3
+
+// let a = 4;
+// let b = -2;
+// let c = 5;
+// let d = 19;
+// let e = -130;
+// let f = 0;
+// let g = 10;
+// console.log(Math.min(a, b, c, d, e, f, g), Math.max(a, b, c, d, e, f, g));
+// задача 4
