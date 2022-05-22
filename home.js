@@ -88,16 +88,24 @@
 // console.log(Math.min(a, b, c, d, e, f, g), Math.max(a, b, c, d, e, f, g));
 // задача 4
 
-// let r = 6;
-// let c = 11;
-// for ( let a = 1; a <=r; a++){
-//     let s = "";
-//     for ( let b = 1; b <= c; b++){
-//         if( b <= r - a  || b-a>r-1){
-//             s = s + "-";
-//         }else{
-//             s = s + "+";
-//         }
-//     }
-//     console.log(s);
-// }//задача 5
+// let a = +prompt ('enter first number');
+// let b = +prompt ('enter second number');
+// console.log(Math.abs(a - b));// задача 5
+
+let c = +prompt('Введите ширину треугольника ');
+let r =  (c - 1) /2 +1;
+if (c%2 ==0){
+    console.log(NaN);
+}else{
+    for ( let a = 1; a <=r; a++){
+        let s = "";
+        for ( let b = 1; b <= c; b++){
+            if( b <= r - a  || b>=r+a){
+                s = s + "-";
+            }else {
+                s = s + "+";
+            }
+        }
+        console.log(s);
+    }
+}//задача 6
