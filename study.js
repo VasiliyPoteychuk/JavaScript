@@ -116,30 +116,30 @@
 //     console.log(res);
 //  }
 
-function plo (a, b){
-    return a*b;
-}
-let a = +prompt;
-let b = +prompt;
+// function plo (a, b){
+//     return a*b;
+// }
+// let a = +prompt;
+// let b = +prompt;
 
-if( a != b){
-   res = plo;
-}else{
-    res = a*a;
-}
-console.log(res);
+// if( a != b){
+//    res = plo;
+// }else{
+//     res = a*a;
+// }
+// console.log(res);
 
 
-function eq(a, b, c){
-    let d = Math.pow(b, 2) - 4 * a * c;
-    if(d >0){
-        let x1 =(b * (-1)+ Math.sqrt(d))/(2 * a);
-        let x2 =(b * (-1)- Math.sqrt(d))/(2 * a);
-        console.log(x1, x2);
-    }else if (d === 0){
-        let x = (b * (-1)) / (2 * a);
-        console.log(x);
-    }else{
-        console.log("корней нет");
-    }
-}
+// function eq(a, b, c){
+//     let d = Math.pow(b, 2) - 4 * a * c;
+//     if(d >0){
+//         let x1 =(b * (-1)+ Math.sqrt(d))/(2 * a);
+//         let x2 =(b * (-1)- Math.sqrt(d))/(2 * a);
+//         console.log(x1, x2);
+//     }else if (d === 0){
+//         let x = (b * (-1)) / (2 * a);
+//         console.log(x);
+//     }else{
+//         console.log("корней нет");
+//     }
+// }

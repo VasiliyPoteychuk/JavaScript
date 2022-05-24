@@ -109,3 +109,20 @@
 //         console.log(s);
 //     }
 // }//задача 6 Ёлочка
+
+// HOMEWORK 24/05
+
+// //Задача 1
+// function getMin(a, b) {
+//     return Math.min(a, b);
+// }
+// let getNumb = getMin( 6, 1)
+// console.log(getNumb);
+
+//Задача 2
+function getPrice() {
+    return (price - (price / 100 * 3.5));
+}
+let price = +prompt('стоимость товара');
+let exit = getPrice(price);
+console.log(exit.toFixed(2));
