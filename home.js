@@ -113,16 +113,25 @@
 // HOMEWORK 24/05
 
 // //Задача 1
+// function getRadius() {
+//     return 2 * Math.PI * r;
+// }
+// let r = +prompt ('Введите радиус окружности');
+// let length = getRadius(r);
+// console.log(length);
+
+
+// //Задача 2
+// function getPrice() {
+//     return (price - (price / 100 * 3.5));
+// }
+// let price = +prompt('стоимость товара');
+// let exit = getPrice(price);
+// console.log(exit.toFixed(2));
+
+// //Задача 3
 // function getMin(a, b) {
 //     return Math.min(a, b);
 // }
 // let getNumb = getMin( 6, 1)
 // console.log(getNumb);
-
-//Задача 2
-function getPrice() {
-    return (price - (price / 100 * 3.5));
-}
-let price = +prompt('стоимость товара');
-let exit = getPrice(price);
-console.log(exit.toFixed(2));
