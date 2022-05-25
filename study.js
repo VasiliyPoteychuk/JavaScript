@@ -225,11 +225,24 @@
 
 //8
 
-let str8 = 'kja';
-let s = "o";
-if (str8.length > 10){
-   console.log( str8.slice(0, 6));
-}else{
-    str8 = str8.padEnd(12, 'o');
-    console.log(str8);
+// let str8 = 'kja';
+// let s = "o";
+// if (str8.length > 10){
+//    console.log( str8.slice(0, 6));
+// }else{
+//     str8 = str8.padEnd(12, 'o');
+//     console.log(str8);
+// }
+
+// //9
+
+// let str9 = 'jkhbvcavknikcvnkjavindvsk';
+// str9 = str9.replaceAll('world', 'leter');
+// console.log(str9);
+
+//10
+
+let str10 = ' ojni ijn uhi jniu    hi     m';
+while (str10.includes) {
+    
 }
