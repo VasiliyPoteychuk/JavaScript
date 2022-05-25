@@ -194,22 +194,42 @@
 // str5 = str5.replaceAll('!','');
 // console.log(str5);
 
-//Задача6
+// //Задача6
 
-let str6 = '+-++0++--0--+++0+---+';
-let plus = 0;
-let minus =0;
-let withZero =0;
-for (let i = 0; i < str6.length; i++){
-    if(str6[i] == '+'){
-        plus++;
-    }else if(str6[i] == '-'){
-        minus++;
-    }
-    if((str6[i]=='-' || str6[i]=='+') && i < str6.length -1 && str6[i + 1]=='0' ){
-        withZero++;
-    }
+// let str6 = '+-++0++--0--+++0+---+';
+// let plus = 0;
+// let minus =0;
+// let withZero =0;
+// for (let i = 0; i < str6.length; i++){
+//     if(str6[i] == '+'){
+//         plus++;
+//     }else if(str6[i] == '-'){
+//         minus++;
+//     }
+//     if((str6[i]=='-' || str6[i]=='+') && i < str6.length -1 && str6[i + 1]=='0' ){
+//         withZero++;
+//     }
+// }
+// console.log(plus);
+// console.log(minus);
+// console.log(withZero);
+
+//Задача7
+
+// let str7 = 'oachisuvhoiokdsjv9jbdf';
+// let s = '';
+// for(let i = 0; i < str7.length; i++){
+//  s = s + str7[i] + ' ';
+// }
+// console.log(s);
+
+//8
+
+let str8 = 'kja';
+let s = "o";
+if (str8.length > 10){
+   console.log( str8.slice(0, 6));
+}else{
+    str8 = str8.padEnd(12, 'o');
+    console.log(str8);
 }
-console.log(plus);
-console.log(minus);
-console.log(withZero);
