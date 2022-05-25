@@ -143,3 +143,73 @@
 //         console.log("корней нет");
 //     }
 // }
+
+
+// Study 25.05
+//Задача1
+// let str = 'Hkaadsdfcouaahds';
+// console.log(str[0]);
+// console.log(str[str.length -1]);
+// if (str.length%2 ==0){
+// console.log(str[str.length / 2]);
+// }
+
+// Задача2
+// let str2 = 'Hkds';
+// if(str2.length > 7){
+//     console.log(str2.slice(0, 3));
+//     console.log(str2.slice(-3));
+// }else{
+//     let l = str2.length;
+//     for(let i = 0; i < l; i++){
+//         console.log(str2[0]);
+//     }
+// }
+
+//Задача3
+
+// let str3 = 'HFJDklasdkfhjksdfvhn';
+// for( let i = 3; i < str3.length; i=i+3){
+//     console.log(str3[i]);
+// }
+
+//Задача4
+
+// let str4 = 'KkjdfhiauhDJHkfjsivsniewd';
+// let r = "";
+// let l = "";
+// for(let i = 0; i < str4.length; i++){
+//     if(i%2 == 0){
+//         r =r + str4[i];
+//     }else{
+//         l =l + str4[i]
+//     }
+// }
+// console.log(r);
+// console.log(l);
+
+//Задача5
+
+// let str5 = 'iu!Hbgiuh!iubguyg!bgy!';
+// str5 = str5.replaceAll('!','');
+// console.log(str5);
+
+//Задача6
+
+let str6 = '+-++0++--0--+++0+---+';
+let plus = 0;
+let minus =0;
+let withZero =0;
+for (let i = 0; i < str6.length; i++){
+    if(str6[i] == '+'){
+        plus++;
+    }else if(str6[i] == '-'){
+        minus++;
+    }
+    if((str6[i]=='-' || str6[i]=='+') && i < str6.length -1 && str6[i + 1]=='0' ){
+        withZero++;
+    }
+}
+console.log(plus);
+console.log(minus);
+console.log(withZero);
