@@ -135,3 +135,64 @@
 // }
 // let getNumb = getMin( 6, 1)
 // console.log(getNumb);
+
+// Homework 28.08
+
+//1
+
+// let str = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+// let space = 1;
+// for (let i = 0; i < str.length; i++){
+//     if(str[i] == ' '){
+//         space++
+//     }
+// }
+// console.log('В строке ' + space + ' символов');
+// console.log(str.replaceAll('a', 'ab'));
+
+//2
+   
+// let str = '123456789';
+// for (let i = str.length; i > 0; i= i-3){
+//         str = str.replace(i , i +' ')   
+// }
+// console.log(str);
+
+//3
+
+// let str = 'Lorem ipsum123 dolor 123 sit amet, co1nsec856989tetur adipis7cing elit, sed d6o eiusmod temp567or incid6idunt ut l65abore et123 dolore magn256a aliqua. Ut enim4 ad minim veniam, quis nostrud'
+// let n = 0;
+// for (let i = 0; i < str.length; i++){
+//   if( str[i] == '1' || str[i] == '2' || str[i] == '3' || str[i] == '4' || str[i] == '5' || str[i] == '6' || str[i] == '7' || str[i] == '8' || str[i] == '9' || str[i] == '0' ){
+//     n = n + 1;
+//   }
+// }
+// console.log(n);
+
+// 4
+
+// let str = 'Lorem ipsum dolor  sit amet, consectetur'
+// let newStr = '';
+// for(let i = str.length -1; i >= 0; i--){
+//   newStr = newStr + str[i] // newStr +=str[i]
+// }
+// console.log(newStr);
+
+//5
+
+// let word = 'abcddcba';
+// let newWord = '';
+// for (let i = word.length -1; i >= 0; i--){
+//   newWord = newWord + word[i]
+// }if(word == newWord){
+//   console.log(true);
+// }else{
+//   console.log(false);
+// }
+//или
+// console.log(word.localeCompare(newWord));
+
+
+//6
+
+let str = 'Lorem ipsum dolor  sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco   laboris nisi ut aliquip ex ea commodo consequat. Duis aute    irure dolor in reprehenderit   in voluptate velit esse   cillum dolore eu fugiat nulla pariatur.    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
