@@ -138,7 +138,7 @@
 
 // Homework 28.08
 
-//1
+// 1
 
 // let str = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
 // let space = 1;
@@ -150,7 +150,7 @@
 // console.log('В строке ' + space + ' символов');
 // console.log(str.replaceAll('a', 'ab'));
 
-//2
+// 2
    
 // let str = '123456789';
 // for (let i = str.length; i > 0; i= i-3){
@@ -158,7 +158,7 @@
 // }
 // console.log(str);
 
-//3
+// // 3
 
 // let str = 'Lorem ipsum123 dolor 123 sit amet, co1nsec856989tetur adipis7cing elit, sed d6o eiusmod temp567or incid6idunt ut l65abore et123 dolore magn256a aliqua. Ut enim4 ad minim veniam, quis nostrud'
 // let n = 0;
@@ -169,7 +169,7 @@
 // }
 // console.log(n);
 
-// 4
+// // 4
 
 // let str = 'Lorem ipsum dolor  sit amet, consectetur'
 // let newStr = '';
@@ -178,7 +178,7 @@
 // }
 // console.log(newStr);
 
-//5
+// // 5
 
 // let word = 'abcddcba';
 // let newWord = '';
@@ -189,10 +189,10 @@
 // }else{
 //   console.log(false);
 // }
-//или
+// или
 // console.log(word.localeCompare(newWord));
 
 
-//6
+// // 6
 
-let str = 'Lorem ipsum dolor  sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco   laboris nisi ut aliquip ex ea commodo consequat. Duis aute    irure dolor in reprehenderit   in voluptate velit esse   cillum dolore eu fugiat nulla pariatur.    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+// let str = 'Lorem ipsum dolor  sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco   laboris nisi ut aliquip ex ea commodo consequat. Duis aute    irure dolor in reprehenderit   in voluptate velit esse   cillum dolore eu fugiat nulla pariatur.    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'

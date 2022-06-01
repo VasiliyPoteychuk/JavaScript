@@ -242,7 +242,85 @@
 
 //10
 
-let str10 = ' ojni ijn uhi jniu    hi     m';
-while (str10.includes) {
+// let str10 = ' ojni ijn uhi jniu    hi     m';
+// while (str10.includes) {
     
-}
+// }
+
+//                             01.06.22
+
+
+
+//1
+// let arr = [];
+// for(let i = 1; i < 999; i++){
+//     if(i % 2 == 0){
+//         arr.push(i); 
+//     }
+// }console.log(arr);
+
+//2
+
+// let arr = [];
+// for(let i = 1000; i > 200; i--){
+//     if(i % 3 == 0){
+//         arr.push(i)
+//     }
+// }console.log(arr);
+
+//3
+
+// let arr =[];
+// for (let i =0; i < 50; i++){
+//     arr.push((i+1)**2);
+// }console.log(arr);
+
+//4
+
+// let arr = [2,4,7,1,2,5,7];
+// let n = 0;
+// for (let i = 0; i < arr.length; i++){
+//     if (i % 2 ==0 ) {
+//         n = n + 1;
+//     }
+// }console.log(n);
+
+//5
+
+// let arr = [1,2,3,4,5,];
+// let summ = 0;
+// let product = 1;
+// for (let i = 0; i < arr.length; i++){
+//     summ = summ + arr[i]
+//     product = product * arr[i]
+// }
+// console.log(summ);
+// console.log(product);
+
+//6
+
+// let arr = [1,2,3,4,5,6,7,8,3,];
+// let summ = 0;
+// let summExtreme = arr[0] + arr[arr.length - 1]
+// for(let i =0; i < arr.length; i++){
+//     if(i % 2 && arr[i] > summExtreme){
+//     summ = summ + arr[i];
+//     }
+    
+// }console.log(summ);
+
+//7
+
+// let arr = [1,2,3,4,5,3,4,5,6,1,2,4,5,6,3,7,];
+// let small = arr[0];
+// for (let i = 0; i < arr.length; i++){
+//     if(arr[i] % 2 ==0 && arr[i] < small){
+//         small = arr[i];
+//     }
+// }console.log(small);
+
+//8
+let arr = [];
+
+
+
