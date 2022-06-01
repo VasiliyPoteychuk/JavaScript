@@ -339,4 +339,4 @@ while (str.includes('  ')) {
     str = str.replaceAll('  ',' ');
 }
 let words = str.split(' ')
-console.log(words);
+console.log(words.length);
