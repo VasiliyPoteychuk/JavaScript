@@ -319,8 +319,24 @@
 //     }
 // }console.log(small);
 
-//8
-let arr = [];
+//9
 
+// let arr = [1,2,3,54,4,3,34,7,4567,546,];
+// let isDublicate = false;
+// while(arr.length){
+//     const element = arr.pop();
+//     if(arr.includes(element)){
+//         isDublicate = true;
+//         break;
+//     }
+// }
+// console.log(isDublicate);
 
+//10
 
+let str = 'Дана   строка,   состоящая    из слов';
+while (str.includes('  ')) {
+    str = str.replaceAll('  ',' ');
+}
+let words = str.split(' ')
+console.log(words);
