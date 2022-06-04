@@ -213,8 +213,6 @@
 // }console.log(arr);
 
 
-
-
 // 2
 // Заполнить массив нулями и единицами, при этом данные значения чередуются, начиная с нуля.
 // let arr =[1,2,3,4,5,56,6,78,768,68,6,5,67,]
@@ -256,23 +254,81 @@
 //   console.log('Больше которых делятся на последнее');
 // }
 
+
 // 5
 // Найти наибольший элемент массива.
-let arr = ['first','second','thirthsdfgsddgh','fourth,','fifthfgh','sixth',]
-let largerElement = arr[0];
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i].length > largerElement.length) {
-    largerElement = arr[i];
-  }
-}console.log(largerElement);
+// Для строк
+// let arrString = ['first','second','thirthsdfgsddgh','fourth,','fifthfgh','sixth',]
+// let largerElement = arr[0];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i].length > largerElement.length) {
+//     largerElement = arr[i];
+//   }
+// }console.log(largerElement);
+//для чисел
+// let arrNumber = [1,2,3,54,23,7,45,23,56,56,8,35,75,345,754,2,3,4,67,578,]
+// let greaterNumber = 0;
+// for (let i = 0; i < arrNumber.length; i++) {
+//   if (arrNumber[i] > greaterNumber) {
+//     greaterNumber = arrNumber[i]
+//   }
+// }console.log(greaterNumber);
+
+
 // 6
 // Найдите сумму наибольшего и наименьшего элементов массива.
+// let arr = [2,1,3,23,5,4,67,8,5,3,4,7,5,46,345,78,];
+// let bigNumb = arr[0];
+// let smallNumb = arr[0];
+// for (let i=0; i < arr.length; i++){
+//   if(arr[i] > bigNumb){
+//     bigNumb = arr[i];
+//   }else if(arr[i] < smallNumb){
+//     smallNumb = arr[i]
+//   }
+// }console.log(bigNumb + smallNumb);
+
 
 // 7
 // Проверьте, является ли массив возрастающим или убывающим.
+// let arr = [9,8,7,6,5,4,2,];
+// let masive = '';
+// for (let i = 1; i < arr.length; i++) {
+//   if(arr[i] > arr[i - 1]){
+//     masive = 'возрастающий'
+//   }else if (arr[i] < arr[i - 1]){
+//     masive = 'убывающий'
+//   }else{
+//     masive = 'смешанный'
+//   }
+// }console.log(masive);
+
 
 // 8
 // Поменять местами наибольший и наименьший элементы массива
+// let arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,];
+// let bigNum = arr[0];
+// let bigNumIndex = 0;
+// let smallNum = arr[0];
+// let smallNumIndex = 0;
+// for(let i = 0; i < arr.length; i++){
+//   if(arr[i] > bigNum){
+//     bigNum = arr[i];
+//     bigNumIndex = i;
+//   }else if(arr[i] < smallNum){
+//     smallNum = arr[i];
+//     smallNumIndex = i;
+//   }
+  
+// }
+// console.log(bigNum);
+// console.log(bigNumIndex);
+// console.log(smallNum);
+// console.log(smallNumIndex);
+// arr[bigNumIndex] = smallNum;
+// arr[smallNumIndex] = bigNum;
+// console.log(arr);
+
 
 // 9
 // Удалить в массиве первый и последний элементы.
