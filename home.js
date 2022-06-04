@@ -241,10 +241,30 @@
 
 // 4
 // Определите, каких чисел в массиве больше: которые делятся на первый элемент массива или которые делятся на последний элемент массива
+// let arr =[3,2,6,2354,23546,34,124,43,54,6,8,2,];
+// let dividedByFirst = 0;
+// let dividedByLast = 0;
+// for(let i = 0; i < arr.length; i++){
+//   if (arr[i]%arr[0] == 0) {
+//     dividedByFirst++
+//   }else if(arr[i]%arr[arr.length-1] == 0){
+//     dividedByLast++
+//   }
+// }if (dividedByFirst > dividedByLast) {
+//   console.log('Больше которых делятся на первое');
+// }else{
+//   console.log('Больше которых делятся на последнее');
+// }
 
 // 5
 // Найти наибольший элемент массива.
-
+let arr = ['first','second','thirthsdfgsddgh','fourth,','fifthfgh','sixth',]
+let largerElement = arr[0];
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i].length > largerElement.length) {
+    largerElement = arr[i];
+  }
+}console.log(largerElement);
 // 6
 // Найдите сумму наибольшего и наименьшего элементов массива.
 
