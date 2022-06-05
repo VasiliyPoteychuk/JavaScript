@@ -1,4 +1,4 @@
-// // "use strict"
+"use strict"
 
 // // // let a = +prompt ('enter first number');
 // // // let b = +prompt ('enter second number');
@@ -290,18 +290,22 @@
 
 
 // 7
-// Проверьте, является ли массив возрастающим или убывающим.
-// let arr = [9,8,7,6,5,4,2,];
-// let masive = '';
+// // Проверьте, является ли массив возрастающим или убывающим.
+// let arr = [1,2,3,4,5,6,7,8,];
+// let masive = 0;
 // for (let i = 1; i < arr.length; i++) {
 //   if(arr[i] > arr[i - 1]){
-//     masive = 'возрастающий'
+//     masive++
 //   }else if (arr[i] < arr[i - 1]){
-//     masive = 'убывающий'
-//   }else{
-//     masive = 'смешанный'
+//     masive--
 //   }
-// }console.log(masive);
+// }if(masive === arr.length-1){
+//   console.log('Масив возрастающий');
+// }else if(masive === -(arr.length-1)){
+//   console.log('Масив убывающий');
+// }else{
+//   console.log('Масив смешаный');
+// }
 
 
 // 8
@@ -319,7 +323,6 @@
 //     smallNum = arr[i];
 //     smallNumIndex = i;
 //   }
-  
 // }
 // console.log(bigNum);
 // console.log(bigNumIndex);
@@ -353,3 +356,19 @@
 //     newArr.push(arr[i]);
 //   }
 // }console.log(newArr);
+
+
+// 12
+// Найдите самое длинное слово в строке
+
+// let  str = 'Lorem ipsum   dolor  sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco   laboris nisi ut aliquip ex ea commodo consequat. Duis aute    irure dolor in reprehenderit   in voluptate velit esse   cillum dolore eu fugiat nulla pariatur.    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+// while(str.includes('  ')){
+// str.replaceAll('  ',' ');
+// // str.replaceAll(',', '').replaceAll('.', '');
+// }
+// console.log(str);
+
+// 13
+// Вывести слова строки, начинающиеся и заканчивающиеся одной и той же буквой
+
+// str = 'abdc asdff asdfa asdffggg bdfdb'
