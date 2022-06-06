@@ -355,7 +355,9 @@
 //   if(arr[i] < 0){
 //     newArr.push(arr[i]);
 //   }
-// }console.log(newArr);
+// // }
+// arr = newArr;
+// console.log(arr);
 
 
 // 12

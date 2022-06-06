@@ -334,9 +334,62 @@
 
 //10
 
-let str = 'Дана   строка,   состоящая    из слов';
-while (str.includes('  ')) {
-    str = str.replaceAll('  ',' ');
-}
-let words = str.split(' ')
-console.log(words.length);
+// let str = 'Дана   строка,   состоящая    из слов';
+// while (str.includes('  ')) {
+//     str = str.replaceAll('  ',' ');
+// }
+// let words = str.split(' ')
+// console.log(words.length);
+
+
+            //06.06.22
+
+// let arr = [1,2,34,5,6,7,78,8];
+
+// arr = arr.map(e => e**3); //сформировать массив из чисел возведенных в куб
+// console.log(arr);
+// arr = arr.sort((a, b) => a - b);//отсортировать по убыванию
+// console.log(arr);
+
+// let summ = 0;
+// arr.forEach((el) => summ = summ + el);
+// let around = summ / arr.length;
+// arr = arr.filter((e) => e > around);//получить массив из чисел больше среднего
+// console.log(arr);
+
+// arr = arr.map((e, i) => e - i);// отнять от каждого элемента его индекс
+// console.log(arr);
+
+// arr = arr.some((e) => e < 0 ) ;// определить есть ли в массиве оттрицательные элементы
+// console.log(arr);
+
+// let newArr = arr.find((e) => e < around/2 ); // найти первый эдемент массива, который меньше среднего вдвое
+// console.log(newArr);
+
+// let max = arr[0]; // найти максимальный элемент
+// arr.forEach( el =>{
+//     if (el > max){
+//         max = el;
+//     }
+// }) //найти максимальный елемент
+// console.log(max);
+
+let str = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolorem quasi quidem ex magni nostrum animi adipisci, totam laborum nobis voluptatibus exercitationem quae dicta aperiam neque ratione officia eum nulla!';
+str = str.split(' ').filter( c => c !=='.' || c !==',').join(' ')
+console.log(str);//удалить знаки препинания
+str = str.toLowerCase();
+console.log(str);//удалить знаки препинания
+str = str.split(' ').sort().join(' ');
+console.log(str);//удалить знаки препинания
+let count = str.split(' ').reduce((n, word) => word.length > 6 ? ++n: n, 0);
+console.log(count);//посчитать колличество слов длина которых больше 6 символов
+let maxWord = str.split(' ').reduce((word1, word2) => word1.length > word2.length ? word1 : word2);
+console.log(maxWord);// найти самое длинное слово
+str = str.split(' ').map(word =>{
+    let letters = word.split('');
+    letters[0] = letters[0].toUpperCase();
+    letters[letters.length -1] = letters[letters.length -1].toUpperCase();
+    letters = letters.join('')
+    return letters;
+}).join(' ');
+console.log(str);//преобразуйте строку так чтобы каждое сово начиналось и заканчивалось с большой буквы
