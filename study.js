@@ -393,3 +393,11 @@ str = str.split(' ').map(word =>{
     return letters;
 }).join(' ');
 console.log(str);//преобразуйте строку так чтобы каждое сово начиналось и заканчивалось с большой буквы
+str = str.split(' ').map( word => word.split('').reverse().join('')).join(' ');
+console.log();//отразите порядок букв в слове
+let short = str.split(' ').map(w => w[0]);
+console.log(short);//напишите код создающий массив состоящий из первых букв слов строки
+let copy = short.reduce((accum, l) =>{
+    if(!accum.includes)
+})
+//из получившегося массива удалите дубликаты
